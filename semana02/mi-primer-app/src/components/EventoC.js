@@ -1,5 +1,7 @@
 import React from "react";
 import "../styles/Evento.css";
+import "./SocialLink.js";
+import SocialLink from "./SocialLink.js";
 function EventoC({ image, title, dateLiteral, placeLiteral, description }) {
     return (
         <div className="card-container">
@@ -14,7 +16,15 @@ function EventoC({ image, title, dateLiteral, placeLiteral, description }) {
                 <p className="card-date">{dateLiteral}</p>
                 <p className="card-place">{placeLiteral}</p>
                 {description.map((line, index) => (<p className="card-description">{line}</p>))}
+                <div className="card-social">
+                    <SocialLink link="https://www.youtube.com/" icon="youtube" alt="Facebook" />
+                    <SocialLink link="https://github.com/" icon="github" alt="GitHub" />
+                </div>
             </div>
+
+
+
+
         </div>
     );
 }
