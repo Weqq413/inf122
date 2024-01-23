@@ -46,6 +46,11 @@
     margin-top: 4px;
 }
 
+.card-social{
+    display: flex;
+    flex-direction: row;
+}
+
 @media (max-width: 800px) {
     .card-container {
         width: 80%;

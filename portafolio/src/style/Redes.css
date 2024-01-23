@@ -1,0 +1,19 @@
+.social-link {
+    display: grid;
+    background-color: #000000;
+    border-radius: 50px;
+    margin: 10px;
+    width: 60px ;
+    height: 60px ;
+
+
+}
+
+.social-link a {
+    margin: 10px;
+    display: grid;
+}
+.social-link-icon{
+    width: 40px ;
+    height: 40px ;
+}
