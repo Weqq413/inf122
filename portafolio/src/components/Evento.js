@@ -3,9 +3,12 @@ import "../style/Evento.css";
 import "../components/Redes.js";
 import Redes from "../components/Redes.js";
 
+
 function Evento() {
   return (
+    <div className="cab">
     <div className="card-container">
+        
 
       <img className="card-image"
         src={require("../images/per.jpg")}
@@ -25,8 +28,36 @@ function Evento() {
                 
             </div>
       </div>
+      </div>
+
+      <div className="botones">
+        <div className="caja1">
+            
+            <div>
+            <button href="https://github.com/Weqq413/segundo-parcial-inf122.git">mi meta</button>
+                
+            </div>
+        
+            
+            <div>
+                <button></button>
+            </div>
+        </div>
+        <div className="caja1">
+            <div>
+            <button></button>
+            
+            </div>
+            <div>
+            <button></button>
+           
+            
+            </div>
+        </div>
+      </div>
  
     </div>
+    
   );
 }
 
